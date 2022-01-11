@@ -1,0 +1,122 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="de-ch">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- Author der Datenbank: Rolf Järmann, rolf@jaermann.ch www.metrobyte.ch -->
+<title>Rangliste Albula-Trophy</title>
+<link rel="stylesheet" type="text/css" href="../global.css">
+</head>
+<script language="javascript">
+<!--
+function drucken()
+		{
+		print();
+		setTimeout("window.close();",4);
+		}
+		//-->
+</script>
+<body bgcolor="#FFFFFF" onload="drucken()">
+<CENTER>
+
+<table border="0" cellpadding="2" cellspacing="0" width="680" height="100%">
+  <tr> 
+    <TD vAlign=top width=100> <a href="../index2.htm"> <img src="../images/top_albula.gif" width="116" height="86" border="0"> 
+      </a> </TD>
+    <TD vAlign=top width=1>&nbsp;</TD>
+    <TD width=596 rowspan="4" vAlign=top> <table border="0" cellpadding="0" cellspacing="4" width="100%" bordercolor="#00FF00">
+        <tr> 
+          <td width="100%" align="center"> <form method="POST" action="rangliste.asp?archiv=2006">
+              <table width="100%">
+                <tr> 
+                  <td align="center" valign="bottom" class="titel"> <h1>Rangliste 
+                      <nobr></nobr> 
+                    </h1></td>
+                </tr>
+              </table>
+            </form></td>
+        </tr>
+        <tr> 
+          <td class="n" width="100%"> Es hat 1 Teilnehmer. <p> <table border="0" cellpadding="0" cellspacing="0" width="100%" class="c">
+              <tr> 
+                <th bgcolor='#E6DAC9'><b>Rang</b></td></center>
+                <th valign="middle" height="25" bgcolor="#E6DAC9"> <p align="left"><b><a href="rangliste.asp?o_by=name+ASC&amp;z=1&amp;suche=&amp;kat=&amp;strecke=&amp;sex=&amp;archiv=2006" class="titel">Name</a></b></p></th>
+                <th valign="middle" height="25" bgcolor="#E6DAC9"> <p align="left"><b>Vorname</b></p></th>
+                <th valign="middle" height="25" bgcolor="#E6DAC9"> <p align="left"><b><a href="rangliste.asp?o_by=ort+ASC,+zeit+DESC&z=1&suche=&kat=&strecke=&sex=&archiv=2006" class="titel">Ort</a></b></p></th>
+                <th valign="middle" height="25" bgcolor="#E6DAC9"> <p align="left"><b><a href="rangliste.asp?o_by=team+ASC,+zeit+DESC&z=1&suche=&kat=&strecke=&sex=&archiv=2006" class="titel">Team</a></b></p></th><CENTER>
+                <th align="center" valign="middle" height="25" bgcolor="#E6DAC9"><b>Jg</b></th>
+                <th valign="middle" height="25" bgcolor="#E6DAC9"> <p align="center"><b><a href="rangliste.asp?o_by=zeit+DESC&rang=null&z=1&suche=&kat=&strecke=&sex=&archiv=2006" class="titel">Zeit</a></b></p></th>
+                <th align='center' bgcolor='#E6DAC9'><b>Rückstand</b></td>
+              </tr>
+              
+              <tr> 
+                <td class='n' align='center'>1.</td>
+                <td class="n">Muster</td>
+                <td class="n">Hans</td>
+                <td class="n">Bettwiesen TG</td>
+                <td class='n'>Albula-Trophy &nbsp;</td>
+                <td align="center" class="n">&nbsp; 1961 &nbsp;</td>
+                <td align="center" class="n">&nbsp;  1:45</td>
+                
+                <td align="center" class="n"> 0:00</td>
+                
+              </tr>
+              
+            </table>
+            &nbsp; <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr> 
+                <td width="30"></td>
+                <td class="klein"> <p align="center"> 
+                    
+                </td>
+                <td width="30" class="klein">&nbsp; </td>
+              </tr>
+            </table></center>
+            </td>
+        </tr>
+      </table></TD>
+  </tr>
+  <tr> 
+    <TD vAlign=top width=100> 
+      <p align="center"> <br>
+        <a href="../zufahrt.htm"> </a> <a href="../strecken.htm"> </a> <a href="../reglement.htm"> 
+        </a> 
+      <P> </font> </TD>
+    <td valign="top" rowspan="3" width="1"></td>
+  </tr>
+  <tr> 
+    <TD vAlign="top" width="100" height="10"> 
+      <p align="left"> <a href="http://www.berguen.ch"  TARGET="_blank"> 
+        <img src="../logos/logo-albula.gif" alt="Albulatal, Graub&uuml;nden, Schweiz" width="112" height="48" border="0"></a> 
+        <a href="http://www.berguen.ch"  TARGET="_blank"> <img src="../logos/logo-berguen.gif" alt="Berg&uuml;n Ferien" width="112" height="58" border="0"></a> 
+        <a href="http://www.filisur.ch"  TARGET="_blank"> <img src="../logos/logo-filisur.gif" alt="Filisur"    width="112" height="48" border="0"></a> 
+      <P align="left"> <CENTER> <div align="left"><img src="../logos/logo-partner.gif" width="112" height="16" border="0"> 
+        <a href="http://www.eddymerckx.be"  TARGET="_blank"> <img src="../logos/logo-eddymerckx.gif" alt="Feinste Rennvelos vom Radsportler des Jahrhunderts..."  width="112" height="48" border="0"></a> 
+        <a href="http://www.maxim-sport.ch"  TARGET="_blank"> <img src="../logos/logo-maxim.gif" alt="Weiter und Schneller dank MAXIM Sports-Nutrition..."  width="112" height="48" border="0"></a> 
+        <a href="http://www.sport-hit.ch/sporthit/index.html" TARGET="_blank"> 
+        <img src="../logos/logo-sporthit.gif" alt="SPORT-HIT; unser Medienpartner.."  width="112" height="48" border="0"></a> 
+        <a href="http://www.velo-direct.ch"  TARGET="_blank"> <img src="../logos/logo-velo-direct.gif" alt="erster Schweizer Online-Veloladen seit 1997"  width="112" height="48" border="0"></a> 
+        <a href="http://www.velo-explorer.ch" TARGET="_blank"> <img src="../logos/logo-veloexplorer.gif" alt="VELO-EXPLORER; Alle Schweizer Alpenp&auml;sse auf einer CD-Rom.."  width="112" height="48" border="0"></a> 
+      </div>
+      <P align="left"> <img src="../logos/logo-links.gif" width="112" height="16" border="0"> 
+        <a href="http://www.bike-hotels.ch"  target="_blank"> <img src="../logos/logo-bike-hotels.gif"  alt="Bike-Hotels.ch >> da sind Biker und Rennvelofahrer herzlich Willkommen.." width="112" height="48" border="0"></a> 
+        <a href="http://www.mountain-rally.ch" TARGET="_blank"> <img src="../logos/logo-mountain-rally.gif" alt="MAXIM Mountain-Rally; das Bike-Erlebnis in den Schweizer Bergen.."  width="112" height="48" border="0"></a> 
+        <a href="http://www.nokian-x-treme.ch" TARGET="_blank"> <img src="../logos/logo-nokian-x-treme.gif" alt="NOKIAN-X-TREME Winter Bike Festival im Albulatal.."  width="112" height="48" border="0"></a> 
+        &nbsp;<br>
+        <a href="http://www.italix.ch" target="_blank"><img border="0" src="../images/logo_italix.gif"></a> 
+    </TD>
+  </tr>
+  <tr> 
+    <TD vAlign=top width=100> <font face="arial" size="2">&nbsp;&nbsp;</font> 
+    </TD>
+  </tr>
+  <tr> 
+    <TD vAlign=top colspan="3"> <hr>
+      <div align="center"><font face="arial" size="1"> © by Agentur Felix AG, 
+        CH-9553 Bettwiesen TG, 071 911 66 16, http://www.felix.ch/, felix@felix.ch</em></font> 
+      </div></TD>
+  </tr>
+</table>
+</body>
+</html>

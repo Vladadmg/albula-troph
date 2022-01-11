@@ -1,0 +1,750 @@
+
+
+<head>
+<meta http-equiv="Content-Language" content="de-ch">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- Author der Datenbank: Rolf Järmann, rolf@jaermann.ch www.metrobyte.ch -->
+<title>Resultate</title>
+<link rel="stylesheet" type="text/css" href="../global.css">
+</head>
+
+<body bgcolor="#FCE4C4" background="../images/hintergrundfarbe.gif">
+<CENTER>
+
+<table border="0" cellpadding="2" cellspacing="0" width="760" height="100%">
+	<tr>
+    	<TD vAlign=top width=172>
+          <a href="../index2.htm">
+          <img border="0" src="../images/top_albula.gif">
+      
+          </a>
+      
+      </TD>
+    	<TD vAlign=top width=10>&nbsp;
+          
+      
+      </TD>
+    	<TD vAlign=top width=380>
+          <a href="../index2.htm"><img border="0" src="../images/top_bilder.gif"></a>
+      
+      </TD>
+        </tr>
+	<tr>
+    	<TD vAlign=top width=151>
+          <p align="center">      
+          
+            <br>
+
+
+<a href="../zufahrt.htm">
+<img src="../navigation/anreise.gif" width="130" height="16" border="0"></a>
+
+<a href="../strecken.htm">
+<img src="../navigation/strecken.gif" width="130" height="16" border="0"></a>
+
+<a href="../reglement.htm">
+<img src="../navigation/reglement.gif" width="130" height="16" border="0"></a>
+
+<a href="rangliste.asp?strecke=b">
+<img src="../navigation/ranglisteberguen-on.gif" width="130" height="16" border="0"></a>
+ 
+<a href="rangliste.asp?strecke=f">
+<img src="../navigation/ranglistefilisur-on.gif" width="130" height="16" border="0"></a>
+  
+<a href="../archiv.htm">
+<img src="../navigation/ranglistearchiv.gif" width="130" height="16" border="0"></a>
+
+<a href="../sportlich.htm">
+<img src="../navigation/sportsgeist.gif" width="130" height="16" border="0"></a>
+
+<a href="../fotos.htm">
+<img src="../navigation/fotos.gif" width="130" height="16" border="0"></a> 
+
+<a href="../partner.htm">
+<img src="../navigation/partner.gif" width="130" height="16" border="0"></a> 
+
+<a href="../finalrennen.htm">
+<img src="../navigation/finalrennen.gif" width="130" height="16" border="0"></a> 
+
+ 
+
+<BR><P>
+
+             </font>      
+      </TD>
+      <td valign="top" rowspan="3" width="10">
+          </td>
+      <td valign="top" rowspan="3" width="600">
+      		<table border="0" cellpadding="0" cellspacing="4" width="100%" bordercolor="#00FF00">
+        <tr>
+                	<td width="100%" align="center">
+<form method="POST" action="rangliste.asp?archiv=2003">
+	<table width="100%"><tr><td width="50%" valign="bottom" align="center" class="titel">
+      <h1>Rangliste <nobr></nobr> 2003</h1>
+    </td><td>
+	<table bordercolor="#C0C0C0" border="2" cellspacing="0" cellpadding="9"><tr><td>
+       <table border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="middle" class="klein">
+            		<select size="1" name="kat" class="klein">
+                	<option value="">-- alle Kategorien --</option>
+                	<option value="j" >Junioren&nbsp;&nbsp;&nbsp;&nbsp; ( - 18)</option>
+                	<option value="u23" >U23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(19-23)</option>
+                	<option value="e" >Elite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(24-35)</option>
+                	<option value="m1" >Master 1&nbsp;&nbsp;&nbsp;&nbsp;(36-40)</option>
+                	<option value="m2" >Master 2&nbsp;&nbsp;&nbsp;&nbsp; (41-45)</option>
+					<option value="m3" >Master 3&nbsp;&nbsp;&nbsp;&nbsp; (46-50)</option>
+					<option value="s1" >Senior 1&nbsp;&nbsp;&nbsp;&nbsp; (51-55)</option>
+					<option value="s2" >Senior 2&nbsp;&nbsp;&nbsp;&nbsp; (56-60)</option>
+					<option value="s3" >Senior 3&nbsp;&nbsp;&nbsp;&nbsp; (61-65)</option>
+					<option value="r" >Kerngesund ( 65 -)</option>
+              </select></td>
+            <td width="15" valign="middle" class="klein">&nbsp;&nbsp;&nbsp;</td>
+            <td valign="middle" class="klein"><input type="radio" value="b" name="strecke"  style="background-color: #FCE4C4">Bergün</td>
+            <td valign="middle" class="klein">&nbsp;&nbsp;&nbsp;</td>
+            <td valign="middle" class="klein"><input type="radio" value="x" name="sex" checked style="background-color: #FCE4C4">Alle</td>
+          </tr>
+          <tr>
+            <td valign="middle" class="klein"></td>
+            <td width="15" valign="middle" class="klein"></td>
+            <td valign="middle" class="klein"><input type="radio" value="f" name="strecke" checked style="background-color: #FCE4C4">Filisur</td>
+            <td valign="middle" class="klein"></td>
+            <td valign="middle" class="klein"><input type="radio" value="m" name="sex"  style="background-color: #FCE4C4">Männlein</td>
+          </tr>
+          <tr>
+            <td valign="middle" class="klein">
+            &nbsp;suche:</td>
+            <td width="15" valign="middle" class="klein"></td>
+            <td valign="middle" class="klein"></td>
+            <td valign="middle" class="klein"></td>
+            <td valign="middle" class="klein"><input type="radio" name="sex" value="w"  style="background-color: #FCE4C4">Weiblein</td>
+          </tr>
+          <tr>
+            <td valign="middle" class="klein" colspan="2"><input type="text" name="suche" size="20" class="text"></td>
+            <td colspan="3" valign="middle" class="klein">&nbsp;<input type="submit" value="        go        " name="go" class="button"></td>
+          </tr>
+          <!--<tr>
+            <td valign="middle" class="klein" colspan="2">
+            	<input type="radio" value="2001" name="archivjahr"  style="background-color: #FCE4C4">2001
+              <input type="radio" value="2002" name="archivjahr"  style="background-color: #FCE4C4">2002</td>//-->
+            <td colspan="3" valign="middle" class="klein"></td>
+          </tr>
+        </table>
+        </td></tr></table>
+        </td></tr></table>
+</form>
+
+                </td>
+              </tr>
+              <tr>
+                <td class="n" width="100%">
+<table width='100%'><tr><td class='n'>Es hat 135 Teilnehmer auf 3 Seiten.</td><td td class='n' align='right'>Seite </td></tr></table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="c">
+  <tr>
+    
+  </center>
+    <th valign="middle" height="25" bgcolor="#E6DAC9">
+      <p align="left"><b><a href="rangliste.asp?o_by=name+ASC&amp;z=1&amp;suche=&amp;kat=&amp;strecke=&amp;sex=&amp;archiv=2003" class="titel">Name</a></b></p>
+  </th>
+   <th valign="middle" height="25" bgcolor="#E6DAC9">
+    <p align="left"><b>Vorname</b></p>
+  </th>
+     <th valign="middle" height="25" bgcolor="#E6DAC9">
+      <p align="left"><b><a href="rangliste.asp?o_by=ort+ASC,+zeit+DESC&z=1&suche=&kat=&strecke=&sex=&archiv=2003" class="titel">Ort</a></b></p>
+  </th>
+    <th valign="middle" height="25" bgcolor="#E6DAC9">
+      <p align="left"><b><a href="rangliste.asp?o_by=team+ASC,+zeit+DESC&z=1&suche=&kat=&strecke=&sex=&archiv=2003" class="titel">Team</a></b></p>
+  </th>
+<CENTER>
+
+    <th align="center" valign="middle" height="25" bgcolor="#E6DAC9"><b>Jg</b></th>
+    <th valign="middle" height="25" bgcolor="#E6DAC9">
+      <p align="center"><b><a href="rangliste.asp?o_by=zeit+DESC&rang=null&z=1&suche=&kat=&strecke=&sex=&archiv=2003" class="titel">Zeit</a></b></p>
+    </th>
+    
+   </tr>
+ 
+        
+              <tr > 
+                
+                <td class='n'>Schier</td>
+                <td class='n'>Dominic</td>
+                <td class='n'>Bern</td>
+                <td class='n'>RS-02-11KU &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1977 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:51</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Ruppen</td>
+                <td class='c'>Diego</td>
+                <td class='c'>Rosshäusen</td>
+                <td class='c'>RS-02-11KU &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1972 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:55</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Menzi</td>
+                <td class='n'>Rolf</td>
+                <td class='n'>Otelfingen</td>
+                <td class='n'>RSC Furttal &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1961 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:58</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Graf</td>
+                <td class='c'>Thomas</td>
+                <td class='c'>Lüchingen</td>
+                <td class='c'>RSS Rheintal &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1976 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:05</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Thür</td>
+                <td class='n'>Anja</td>
+                <td class='n'>Lüchingen</td>
+                <td class='n'>RSS Rheintal &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1976 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:50</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Coltebella</td>
+                <td class='c'>Altieri</td>
+                <td class='c'>Widnau</td>
+                <td class='c'>RSS-Rheintal &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1961 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:09</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Coldebella</td>
+                <td class='n'>Jolanda</td>
+                <td class='n'>Widnau</td>
+                <td class='n'>RSS-Rheintal &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1966 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:48</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Wild</td>
+                <td class='c'>Marco</td>
+                <td class='c'>Davos-Platz</td>
+                <td class='c'>RSV Ebnet &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1971 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:14</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Reichert</td>
+                <td class='n'>Markus</td>
+                <td class='n'>D-Forst</td>
+                <td class='n'>RV Forst &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1986 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:14</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Schefer</td>
+                <td class='c'>Daniel</td>
+                <td class='c'>Seuzach</td>
+                <td class='c'>RV Winterthur &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1969 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:27</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Focke</td>
+                <td class='n'>Daniele</td>
+                <td class='n'>D-Wenden</td>
+                <td class='n'>Saalhausen &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1987 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:49</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Pampel</td>
+                <td class='c'>Alexander</td>
+                <td class='c'>Pontresina</td>
+                <td class='c'>Sporthotel Pontresina &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1972 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:26</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Baumgartner</td>
+                <td class='n'>Maja</td>
+                <td class='n'>Matzingen</td>
+                <td class='n'>Sport-Schüür &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1980 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   2:28</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Huber</td>
+                <td class='c'>Nadine</td>
+                <td class='c'>Müllheim</td>
+                <td class='c'>Sport-Schüür &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1976 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   2:28</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Meili</td>
+                <td class='n'>Stefan-Jakob</td>
+                <td class='n'>Mauren</td>
+                <td class='n'>Sport-Schüür &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1980 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   2:29</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Fasl</td>
+                <td class='c'>Toni</td>
+                <td class='c'>Au</td>
+                <td class='c'>SV Rätikon &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1968 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:08</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Schärer</td>
+                <td class='n'>Stefan</td>
+                <td class='n'>Flaach</td>
+                <td class='n'>Swiss RAAM Team &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1965 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:36</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Schärer</td>
+                <td class='c'>Stefan</td>
+                <td class='c'>Flaach</td>
+                <td class='c'>Swiss RAAM Team &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1965 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:36</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Morger</td>
+                <td class='n'>Arnold</td>
+                <td class='n'>Uetliburg</td>
+                <td class='n'>Tages-Anzeiger &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1951 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:39</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Wild</td>
+                <td class='c'>Mario</td>
+                <td class='c'>D-Karlsruhe</td>
+                <td class='c'>Team Bück Dich &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1973 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:05</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Hollenstein</td>
+                <td class='n'>Reto</td>
+                <td class='n'>Sirnach</td>
+                <td class='n'>Team MAXIM &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1985 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:13</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Neff</td>
+                <td class='c'>Markus</td>
+                <td class='c'>Ruderbach</td>
+                <td class='c'>Team Signer &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1963 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:14</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Epp</td>
+                <td class='n'>Alfons</td>
+                <td class='n'>D-Forst</td>
+                <td class='n'>TV Forst &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1954 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:41</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Marugg</td>
+                <td class='c'>Jürg</td>
+                <td class='c'>Jenins</td>
+                <td class='c'>VBC Landquart &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1967 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:11</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Gambon</td>
+                <td class='n'>Helmut</td>
+                <td class='n'>Domat Ems</td>
+                <td class='n'>VBC Landquart &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1954 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:50</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Steinmetz</td>
+                <td class='c'>Paul</td>
+                <td class='c'>Davos-Platz</td>
+                <td class='c'>VC Davos &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1967 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:24</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Kocher</td>
+                <td class='n'>Raphi</td>
+                <td class='n'>Hittnau</td>
+                <td class='n'>VC Hittnau &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1988 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:35</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Ferrari</td>
+                <td class='c'>Bruno</td>
+                <td class='c'>Zürich</td>
+                <td class='c'>VC Industrie &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1937 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   3:31</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Stutz</td>
+                <td class='n'>Arthur</td>
+                <td class='n'>Maur</td>
+                <td class='n'>VC Industrie Zch &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1932 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   3:22</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Krucker</td>
+                <td class='c'>Kurt</td>
+                <td class='c'>Rupperswil</td>
+                <td class='c'>VC Möriken &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1946 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   2:05</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Baumann</td>
+                <td class='n'>Jaques</td>
+                <td class='n'>Windisch</td>
+                <td class='n'>VMC Hausen &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1953 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:43</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Loy</td>
+                <td class='c'>Tristan</td>
+                <td class='c'>St.Gallen</td>
+                <td class='c'>VW-SPORTXX &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1973 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:15</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Schocher</td>
+                <td class='n'>Thomas</td>
+                <td class='n'>Filisur</td>
+                <td class='n'>www.7477.ch &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1978 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:45</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='c'>Felix</td>
+                <td class='c'>Willi</td>
+                <td class='c'>Bettwiesen</td>
+                <td class='c'>www.FELIX.ch &nbsp;</td>
+                <td  align="center"  class='c'>&nbsp; 
+                  1961 &nbsp;</td>
+                <td align="center" class='c'>&nbsp; 
+                   1:26</td>
+                
+              </tr>
+              
+        
+              <tr > 
+                
+                <td class='n'>Jurisch</td>
+                <td class='n'>Björn</td>
+                <td class='n'>D-Kolkwitz</td>
+                <td class='n'>www.suschow.de &nbsp;</td>
+                <td  align="center"  class='n'>&nbsp; 
+                  1981 &nbsp;</td>
+                <td align="center" class='n'>&nbsp; 
+                   1:29</td>
+                
+              </tr>
+              
+</table>
+&nbsp;
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="30"></td>
+                <td class="klein"> <p align="center"> 
+                    
+                    <A HREF="/result/rangliste.asp?o_by=team+ASC%2C+zeit+DESC&z=1&archiv=2003&suche=&kat=&strecke=&sex=&offset=0">|<</A> 
+                    
+                    &nbsp; &nbsp; 
+                    
+                    <A HREF="/result/rangliste.asp?o_by=team+ASC%2C+zeit+DESC&z=1&archiv=2003&suche=&kat=&strecke=&sex=&offset=50"><<</A> 
+                    
+                    &nbsp; &nbsp; 
+                    
+                    &nbsp; &nbsp; 
+                    
+                </td>
+    <td width="30" class="klein">
+    				<A HREF="#top" onClick="window.open('rangliste_druck.asp?rang=&amp;kat=&amp;strecke=&amp;sql=SELECT+%2A+FROM+albula+WHERE+%27%27+zeit+%3C+0+%27+AND+year%28datum%29%3D2003%27+%27+AND+%28jahrgang+BETWEEN+1900+AND+2003%29%27+%27AND+strecke+%3D+%22f%22+%27+%27%27+ORDER+BY+%27team+ASC%2C+zeit+DESC%27','','WIDTH=1,HEIGHT=1','resizable=no,top=6000,left=6000')">drucken</a></td>
+  </tr>
+</table>
+                </center>
+                </td>
+              </tr>
+            </table>
+          
+      
+      
+      
+    </td>
+        </tr>
+	<tr>
+    	<TD vAlign="top" width="151" height="10">
+          <p align="center">        
+ 
+
+<a href="http://www.berguen.ch"  TARGET="_blank">
+<img src="../logos/logo-berguen.gif" alt="Berg&uuml;n Ferien" width="112" height="58" border="0"></a>  
+ 
+<CENTER>
+
+<img src="../logos/logo-partner.gif" width="112" height="16" border="0">
+
+<a href="http://www.maxim-sport.ch"  TARGET="_blank">
+<img src="../logos/logo-maxim.gif" alt="Weiter und Schneller dank MAXIM Sports-Nutrition..."  width="112" height="48" border="0"></a> 
+ 
+<a href="http://www.simplon.com"  TARGET="_blank">
+<img src="../logos/logo-simplon.gif" alt="Simplon PRIDE Carbon ab 7.000 Kilo. Ein Traum."  width="112" height="48" border="0"></a> 
+
+<a href="http://www.velo-direct.ch/list.php?marke=89" TARGET="_blank">
+<img src="../logos/logo-tufo.gif" alt="Rennvelopneus und Reifen für Siegertypen.."  width="112" height="48" border="0"></a> 
+
+<a href="http://www.velo-direct.ch"  TARGET="_blank">
+<img src="../logos/logo-velo-direct.gif" alt="erster Schweizer Online-Veloladen seit 1997"  width="112" height="48" border="0"></a>  
+
+<a href="http://www.velo-explorer.ch" TARGET="_blank">
+<img src="../logos/logo-veloexplorer.gif" alt="VELO-EXPLORER; Alle Schweizer Alpenp&auml;sse auf einer CD-Rom.."  width="112" height="48" border="0"></a>  
+
+<P>
+<img src="../logos/logo-links.gif" width="112" height="16" border="0">
+
+<a href="http://www.bike-hotels.ch"  target="_blank">
+<img src="../logos/logo-bike-hotels.gif"  alt="Bike-Hotels.ch >> da sind Biker und Rennvelofahrer herzlich Willkommen.." width="112" height="48" border="0"></a> 
+ 
+<a href="http://www.mountain-rally.ch" TARGET="_blank">
+<img src="../logos/logo-mountain-rally.gif" alt="MAXIM Mountain-Rally; das Bike-Erlebnis in den Schweizer Bergen.."  width="112" height="48" border="0"></a> 
+
+<a href="http://www.nokian-x-treme.ch" TARGET="_blank">
+<img src="../logos/logo-nokian-x-treme.gif" alt="NOKIAN-X-TREME Winter Bike Festival im Albulatal.."  width="112" height="48" border="0"></a> 
+
+<a href="http://www.italix.ch" target="_blank">
+<img border="0" src="../images/logo_italix.gif"></a>
+            
+      </TD>
+        </tr>
+	<tr>
+    	<TD vAlign=top width=151>
+          <font face="arial" size="2">&nbsp;&nbsp;</font>
+      </TD>
+        </tr>
+        <tr>
+    <TD vAlign=top width=760 colspan="3">
+          <hr>
+          <font face="arial" size="2"><a href="../../admin/admin.asp" class="adm" ONMOUSEOVER="window.status=''; return true" ONMOUSEOUT="window.status=''; return true" style="color: #000000">
+            ©</a> by Agentur Felix AG, CH-9553 Bettwiesen TG, 071 911 66 16, <a href="http://www.felix.ch/">http://www.felix.ch/</a>,
+          <a href="mailto:felix@felix.ch">felix@felix.ch</a></em></font>
+          </TD>
+        </tr>
+       </table>
+</body>
+</html>
